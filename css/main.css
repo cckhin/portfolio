@@ -553,6 +553,13 @@ a .project-site-link:hover {
 /*form*/
 .form_data_wrapper {
   width: 70%;
-  margin-top: auto;
+  margin: auto;
   display: block;
+  background-color: #ffe2a8;
+}
+.form_data_title {
+  color: #f9db5d;
+  font-size: 4.5rem;
+  text-align: center;
+  font-weight: bold;
 }
