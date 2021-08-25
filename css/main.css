@@ -550,3 +550,9 @@ a .project-site-link:hover {
     width: 90%;
   }
 }
+/*form*/
+.form_data_wrapper {
+  width: 70%;
+  margin-top: auto;
+  display: block;
+}
