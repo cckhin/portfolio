@@ -471,14 +471,22 @@
   <section>
     <div class="form_data_wrapper">
       <div class="form_data_title">
-        <div class="contact-large-title">Please Fill!</div>
+        <div class="contact-large-title">お問い合わせフォーム</div>
       </div>
       <div class="form_section">
         <form action="">
-          <div>
-            <label for="name">
+          <!-- <div>
+            <label for="name"><span class="label-title">お名前</span><span class="label-text">必須</span>
               <input type="text" name="name" id="fname" placeholder="First Name">
               <input type="text" name="name" id="lname" placeholder="Last Name">
+            </label>
+          </div>
+          <div>
+            <label><span class="label-title">性別</span>
+              <input class="with-gap" name="gender" type="radio" id="male" />
+              <span>男性</span>
+              <input class="with-gap" name="gender" type="radio" id="female" />
+              <span>女性</span>
             </label>
           </div>
           <div>
@@ -490,7 +498,130 @@
             <label for="phone">
               <input type="tel" name="phone" id="phone">
             </label>
+          </div> -->
+          <div class="row">
+            <div class="col s12 m3">
+              <p class="mt-1"><span class="label-title">お名前</span><span class="label-text">必須</span></p>
+            </div>
+            <div class="col s12 m9">
+              <label for="name">
+                <input type="text" name="name" id="fname" placeholder="First Name">
+                <input type="text" name="name" id="lname" placeholder="Last Name">
+              </label>
+            </div>
           </div>
+          <div class="row">
+            <div class="col s12 m3">
+              <p class="mt-1"><span class="label-title">性別</span></p>
+            </div>
+            <div class="col s12 m9">
+              <label>
+                <input class="with-gap" name="gender" type="radio" value="男性" checked required/>
+                <span class="gender-text">男性</span>
+              </label>
+              <label>
+                <input class="with-gap" name="gender" type="radio" value="女性" required/>
+                <span class="gender-text">女性</span>
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m3">
+              <p class="mt-1"><span class="label-title">ご住所</span></p>
+            </div>
+            <div class="col s12 m9">
+              〒<input type="text" name="zip1" id="zip1" placeholder="000"> ー 
+                <input type="text" name="zip2" id="zip2" placeholder="0001"><br>
+                <input type="text" name="address" id="address">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m3">
+              <p class="mt-1"><span class="label-title">電話番号</span><span class="label-text">必須</span></p>
+            </div>
+            <div class="col s12 m9">
+              <label for="phone">
+                <input type="tel" name="phone" id="phone" placeholder="09123456789">
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m3">
+              <p class="mt-1"><span class="label-title">メール</span><span class="label-text">必須</span></p>
+            </div>
+            <div class="col s12 m9">
+              <label for="mail">
+                <input type="email" name="email" id="email" placeholder="contact@gmail.com">
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m3">
+              <p class="mt-1"><span class="label-title">確認メール</span></p>
+            </div>
+            <div class="col s12 m9">
+              <label for="confirm_email">
+                <input type="email" name="confirm_email" id="confirm_email" placeholder="contact@gmail.com">
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m3">
+              <p class="mt-1"><span class="label-title">お問合せ種類</span></p>
+            </div>
+            <div class="col s12 m9">
+              <label for="type">
+                <!-- <select id="type" name="type" value="type"> -->
+                <select id="type" name="type" value="type">
+                  <option value="" disabled selected>ご選択ください</option>
+                  <option value="type1">勉強会について</option>
+                  <option value="type2">レクチャー用の書類提出</option>
+                  <option value="type3">新しいクラスの情報</option>
+                  <option value="type4">個人プロジェクトの窓口</option>
+                  <option value="type5">定例ミーティングの欠席に関する連絡</option>
+                  <option value="type6">それぞれのご意見</option>
+                </select>
+              </label>
+            </div>
+          </div>
+          <div class="row" id="type_selected">
+            <div class="col s12 m3">
+              <p class="mt-1"><span class="label-title">レベルと資格</span><span class="label-text">必須</span></p>
+            </div>
+            <div class="col s12 m9">
+              <label for="level">
+                <input type="text" name="level" id="level">
+              </label>
+            </div>
+          </div>
+
+          <div class="row" id="type_selected">
+            <div class="col s12 m3">
+              <p class="mt-1"><span class="label-title">お問合せ内容</span></p>
+            </div>
+            <div class="col s12 m9">
+              <label for="information">
+                <textarea id="information" name="information"></textarea>
+              </label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12">
+              <label>
+                <input class="filled-in" id="is_student" name="is_student" type="checkbox" />
+                <span class="gender-text">学生の時はこちらにチェックする</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 ">
+                <button class="btn" id="submit" type="submit" name="submit">上記に同意してお問合せを送信する
+                </button>
+            </div>
+          </div>
+
         </form>
       </div>
     </div>
