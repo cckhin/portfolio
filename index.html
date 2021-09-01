@@ -13,9 +13,8 @@
   <meta name="descriptions"
     content="私の名前はキンチイチィカイと申します。国籍はミャンマーです。今27歳で、株式会社イタミアートでマーケティング課WEBデザイン班コーディングチームに勤めています。" />
   <title>KHIN KYI KYI KHINE PROTFOLIO</title>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap" 
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap"
     rel="stylesheet">-->
   <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP:wght@100&display=swap"
     rel="stylesheet">
@@ -475,38 +474,14 @@
       </div>
       <div class="form_section">
         <form action="">
-          <!-- <div>
-            <label for="name"><span class="label-title">お名前</span><span class="label-text">必須</span>
-              <input type="text" name="name" id="fname" placeholder="First Name">
-              <input type="text" name="name" id="lname" placeholder="Last Name">
-            </label>
-          </div>
-          <div>
-            <label><span class="label-title">性別</span>
-              <input class="with-gap" name="gender" type="radio" id="male" />
-              <span>男性</span>
-              <input class="with-gap" name="gender" type="radio" id="female" />
-              <span>女性</span>
-            </label>
-          </div>
-          <div>
-            <label for="email">
-              <input type="email" name="email" id="email" placeholder="Enter your email address!">
-            </label>
-          </div>
-          <div>
-            <label for="phone">
-              <input type="tel" name="phone" id="phone">
-            </label>
-          </div> -->
           <div class="row">
             <div class="col s12 m3">
               <p class="mt-1"><span class="label-title">お名前</span><span class="label-text">必須</span></p>
             </div>
             <div class="col s12 m9">
-              <label for="name">
-                <input type="text" name="name" id="fname" placeholder="First Name">
-                <input type="text" name="name" id="lname" placeholder="Last Name">
+              <label for="name" id="name_id_row">
+                <input type="text" name="name" id="fname" placeholder="First Name" value="">
+                <input type="text" name="name" id="lname" placeholder="Last Name" value="">
               </label>
             </div>
           </div>
@@ -530,7 +505,7 @@
               <p class="mt-1"><span class="label-title">ご住所</span></p>
             </div>
             <div class="col s12 m9">
-              〒<input type="text" name="zip1" id="zip1" placeholder="000"> ー 
+              〒<input type="text" name="zip1" id="zip1" placeholder="000"> ー
                 <input type="text" name="zip2" id="zip2" placeholder="0001"><br>
                 <input type="text" name="address" id="address">
             </div>
@@ -576,7 +551,7 @@
                   <option value="" disabled selected>ご選択ください</option>
                   <option value="type1">勉強会について</option>
                   <option value="type2">レクチャー用の書類提出</option>
-                  <option value="type3">新しいクラスの情報</option>
+                  <option value="type3" id="option_select">新しいクラスの情報</option>
                   <option value="type4">個人プロジェクトの窓口</option>
                   <option value="type5">定例ミーティングの欠席に関する連絡</option>
                   <option value="type6">それぞれのご意見</option>
@@ -622,15 +597,19 @@
             </div>
           </div>
 
+
+
         </form>
+        <div class="card-content">
+        </div>
       </div>
     </div>
   </section>
-
-  <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/form.js"></script>
+  <!-- <script type="text/javascript" src="js/main.js"></script> -->
 </body>
 
 </html>

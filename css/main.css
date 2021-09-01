@@ -683,7 +683,15 @@ textarea {
   padding: 0.5rem 0.5rem 2.5rem!important;
   border-radius: 5px!important;
   font-weight: bold !important;
-  margin-top: 3rem !important
+  margin-top: 3rem !important;
+  font-size: 1.2rem!important;
+}
+
+#type_selected {
+  display: none;;
+}
+#information {
+  display: none;
 }
 
 
