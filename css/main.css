@@ -410,6 +410,16 @@ a .project-site-link:hover {
 
 
 /*contact*/
+.container .row.row--align-height {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row--align-height>.col>* {
+  height: 90%;
+}
+.row.row--align-height .col.l4 {
+  padding: 0 0.8rem 0;
+}
 .contact-container {
   background-color: #e9ad35;
   width: 60%;
