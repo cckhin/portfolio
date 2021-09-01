@@ -5,6 +5,12 @@
   font-family: "游ゴシック", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
   color: #212121;
 }
+body {
+  margin: 0;
+  background: #acb6e5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 html {
   scroll-behavior: smooth;
 }
@@ -35,6 +41,7 @@ hr {
 }
 .medium-text {
   font-size: 0.9rem;
+  color: #fafafa;
 }
 .mb-0 {
   margin-bottom: 0;
@@ -52,7 +59,8 @@ p.mb-4 {
   margin-top: 1.5rem;
 }
 header {
-  background-color: #e9ad35;
+  /* background-color: #e9ad35; */
+  background-color: #3e3a39;
   padding: 10px 180px 0;
   position: fixed;
   top: 0;
@@ -61,6 +69,17 @@ header {
   font-weight: bold;
   display: flex;
 }
+header div {
+  width: 75%;
+  margin: auto;
+  display: block;
+  margin-bottom: 0!important;
+}
+/* @media only screen and (min-width: 1130px) {
+  header div {
+    width: 100%;
+  }
+} */
 .name-large-text {
   font-size: 1.4rem;
   font-weight: bold;
@@ -72,17 +91,19 @@ header .container {
 }
 header .portfolio-logo {
   margin-bottom: 5px;
+  margin-left: 3rem;
   line-height: 1;
   font-size: 15px;
+  color: #fff;
 }
 header .title-name {
   font-family: 'Lobster', cursive;
-  color: #212121;
   font-size: 33px;
+  color: #fff;
 }
 header nav {
-  margin-left: 20px;
-  background-color: #e9ad35;
+  /* margin-left: 100px; */
+  background-color: #3e3a39;
   box-shadow: none;
 }
 header nav ul a:hover {
@@ -97,9 +118,10 @@ header ul {
 }
 header ul li {
   list-style: none;
-  display: inline;
-  padding: 0 10px 0 10px;
-  margin: 0 25px;
+    display: inline;
+    /* padding: 0 20px; */
+    margin: 0 30px;
+    font-size: 1.2rem;
 }
 header .logo-link-part {
   float: left;
@@ -146,7 +168,7 @@ header .contact-link {
 }
 /*resume*/
 .resume-container {
-  background-color: #ffe2a8;
+  /* background-color: #ffe2a8; */
   padding: 50px 20px 80px;
   margin-top: 5rem;
 }
@@ -271,7 +293,7 @@ a .resume-download-gray:hover {
   margin-bottom: 4.5rem;
 }
 .my-project {
-  background-color: #fff9e1;
+  background-color: #86a8e7;
   padding: 25px 20px 25px;
   margin: 5px;
   border-radius: 5px;
@@ -280,14 +302,16 @@ a .resume-download-gray:hover {
   box-shadow: 3px 3px 7px rgb(0 0 0 / 10%);
 }
 .my-project-data {
-  border-left: 5px solid #e9ad35;
+  border-left: 5px solid #fff;
   padding-left: 5px;
   margin-bottom: 13px;
+  color: #fff;
 }
 .my-project-title {
   font-size: 1.1rem;
   font-weight: bold;
   line-height: 2;
+  color: #fff;
 }
 .required-tip {
   margin-bottom: 5px;
@@ -322,19 +346,19 @@ a .resume-download-gray:hover {
   margin-top: -4.2rem;
 }
 .project-site-link {
-  background-color: #e9ad35;
+  background-color: #fff;
   padding: 10px;
   width: 100%;
   border-radius: 3px;
   text-align: center;
   font-weight: bold;
-  color: #fff!important;
+  color: #3e3a39!important;
   font-size: 1.1rem;
   margin-top: 5px;
 }
 .project-official-site-link {
-  background-color: #e9ad35;
-  color: #fff!important;
+  background-color: #fff;
+  color: #3e3a39!important;
   padding: 10px;
   width: 100%;
   border-radius: 3px;
@@ -380,14 +404,19 @@ a .project-site-link:hover {
 }
 
 .skill {
-  background: linear-gradient(90deg, #fff9e1 0%, #e9ad35 100%);
+  /* background: linear-gradient(90deg, #fff9e1 0%, #e9ad35 100%); */
+  
+  background: #77A1D3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   text-align: right;
   padding-right: 15px;
   line-height: 11px;
   border-radius: 0 20px 20px 0;
   font-size: 11px;
   font-weight: bold;
-  color: #444;
+  color: #fff;
 }
 .skill-map-row {
   width: 50%;
