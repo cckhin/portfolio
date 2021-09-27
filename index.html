@@ -21,43 +21,52 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/main.css" />
 </head>
+<body>
 
-<div>
-  <header class="hide-on-small-only">
-    <div class="row">
-      <div class="col m2">
-        <p class="portfolio-logo">
-          <span class="title-name">Khine‘s</span><br>
-          ― Portfolio
-        </p>
+  <header>
+    <p class="portfolio-logo">
+      <span class="title-name">Khine‘s</span><br>
+      ― Portfolio
+    </p>
+    <nav class="" role="navigation">
+      <div class="nav-wrapper container">
+
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#resume">履歴書</a></li>
+          <li><a href="#project">プロジェクト</a></li>
+          <li><a href="#skill">スキルマップ</a></li>
+          <li><a href="#contact">お問合せ</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#resume">履歴書</a></li>
+          <li><a href="#project">プロジェクト</a></li>
+          <li><a href="#skill">スキルマップ</a></li>
+          <li><a href="#contact">お問合せ</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       </div>
-      <div class="col m10">
-        <nav>
-          <ul>
-            <li><a href="#introduction">自己紹介</a></li>
-            <li><a href="#resume">履歴書</a></li>
-            <li><a href="#project">プロジェクト</a></li>
-            <li><a href="#skill">スキル</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
+    </nav>
   </header>
   <!--showcase || start-->
+  <p class="intro-showcase">
+    <div class="intro-large-title">INTRODUCTION</div>
+    <div class="intro-small-title">自己紹介</div>
+  </p>
   <section id="introduction" class="showcase-container">
     <div class="row introduction-showcase">
       <div class="col s12 m8">
         <div class="portfolio-text">
-          <div class="intro-large-title">INTRODUCTION</div>
-          <div class="intro-small-title">自己紹介</div>
           <p>私の名前は<span class="name-large-text">キンチイチィカイ</span>と申します。国籍は<span class="name-large-text">ミャンマー</span>です。今28歳で、株式会社イタミアートでマーケティング課WEBデザイン班コーディングチームに勤めています。</p>
           <p>趣味は写真を撮ること、写真編集、歌を聴くことです。あまりうまくはないけど絵を描くこととカラオケが好きです。</p>
-          <p>チャレンジ精神が高く、飲み込みが早いのは<span class="name-large-text">私の強み</span>です。</p>
+          <p>責任感を一杯持つ、飲み込みが早いのは<span class="name-large-text">私の強み</span>です。</p>
         </div>
       </div>
       <div class="col s12 m4">
         <div class="portfolio-image">
-          <img src="picture/svg/my_avator.svg" alt="khin kyi kyi khine" width="250" height="auto" />
+          <img src="picture/copy.jpg" alt="khin kyi kyi khine"/>
         </div>
       </div>
     </div>
@@ -70,64 +79,60 @@
         <div class="resume-large-title">RESUME</div>
         <div class="resume-small-title">履歴書</div>
       </div>
-      <div class="row resume-row">
+      <div class="row resume-row row--align-height">
         <div class="col s12 m4">
           <div class="resume-column" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <div class="resume-column-title">
-              <p class="bold-text">学歴</p>
+              <p class="bold-text black-text">学歴</p>
               <img src="picture/svg/university.svg" alt="university" />
             </div>
             <div class="resume-date-show">
-              <span class="resume-date">2021年06月</span><br>
+              <span class="resume-date">2012年06月</span><br>
               <span class="resume-text">第二、バハン高等学校　卒業</span>
             </div>
             <div class="resume-date-show">
-              <span class="resume-date">2021年06月</span><br>
-              <span class="resume-text">第二、バハン高等学校　卒業</span>
+              <span class="resume-date">2009年11月</span><br>
+              <span class="resume-text">ヤンゴンコンピューター大学<br>(コンピュータサイエンス)専門　入学</span>
             </div>
             <div class="resume-date-show">
-              <span class="resume-date">2021年06月</span><br>
-              <span class="resume-text">第二、バハン高等学校　卒業</span>
+              <span class="resume-date">2014年11月</span><br>
+              <span class="resume-text">ヤンゴンコンピューター大学<br>(コンピュータサイエンス)専門　卒業</span>
             </div>
           </div>
         </div>
         <div class="col s12 m4">
           <div class="resume-column" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <div class="resume-column-title">
-              <p class="bold-text">学歴</p>
+              <p class="bold-text black-text">職歴</p>
               <img src="picture/svg/company.svg" alt="company" />
             </div>
             <div class="resume-date-show">
-              <span class="resume-date">2021年06月</span><br>
-              <span class="resume-text">第二、バハン高等学校　卒業</span>
+              <span class="resume-date">2016年02月</span><br>
+              <span class="resume-text">株式会社イタミアート（ミャンマー支社）入社</span>
             </div>
             <div class="resume-date-show">
-              <span class="resume-date">2021年06月</span><br>
-              <span class="resume-text">第二、バハン高等学校　卒業</span>
+              <span class="resume-date">2019年10月</span><br>
+              <span class="resume-text">株式会社イタミアート（岡山本社）転勤</span>
             </div>
             <div class="resume-date-show">
-              <span class="resume-date">2021年06月</span><br>
-              <span class="resume-text">第二、バハン高等学校　卒業</span>
+              <span class="resume-date">現在</span><br>
+              <span class="resume-text">株式会社イタミアート（岡山本社）</span>
             </div>
           </div>
         </div>
         <div class="col s12 m4">
           <div class="resume-column" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <div class="resume-column-title">
-              <p class="bold-text">学歴</p>
+              <p class="bold-text black-text">資格</p>
               <img src="picture/svg/certificate.svg" alt="certificate" />
             </div>
             <div class="resume-date-show">
-              <span class="resume-date">2021年06月</span><br>
-              <span class="resume-text">第二、バハン高等学校　卒業</span>
+              <span class="resume-date">2020年07月</span><br>
+              <span class="resume-text">日本語能力試験N-2　取得</span>
             </div>
             <div class="resume-date-show">
-              <span class="resume-date">2021年06月</span><br>
-              <span class="resume-text">第二、バハン高等学校　卒業</span>
-            </div>
-            <div class="resume-date-show">
-              <span class="resume-date">2021年06月</span><br>
-              <span class="resume-text">第二、バハン高等学校　卒業</span>
+              <span class="resume-date">2015年01月</span><br>
+              <span class="resume-text">ICTTI/IMCEITS India Myanmar(Java Programming Course)</span>
             </div>
           </div>
         </div>
@@ -135,7 +140,7 @@
 
       <div class="row resume-download-row">
         <div class="col s12 m4">
-          <a href="">
+          <a href="file/myrirekisho.pdf">
             <div class="resume-download-green">履歴書ダウンロード</div>
           </a>
         </div>
@@ -144,7 +149,7 @@
             履歴書と職務経歴書ダウンロード</p>
         </div>
         <div class="col s12 m4">
-          <a href="">
+          <a href="file/mycv.docx">
             <div class="resume-download-gray">職務経歴書ダウンロード</div>
           </a>
         </div>
@@ -159,16 +164,16 @@
         <div class="project-large-title">PROJECT</div>
         <div class="project-small-title">プロジェクト</div>
       </div>
-      <div class="row project-data-row mb-4">
+      <div class="row project-data-row mb-4 row--align-height" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
         <div class="col s12 m6 project-border">
           <div class="my-project">
             <div class="row project-site-row">
               <div class="col s12 m6">
                 <img src="picture/svg/site-simple.svg" alt="site-simple" width="" height="" class="project-site-img" />
               </div>
-              <div class="col s12 m6">
+              <div class="col s12 m6 mb-0">
                 <div class="required-tip">
-                  <p class="bold-text white-text mb-0">利用技術</p>
+                  <p class="bold-text black-text mb-0">利用技術</p>
                   <img src="picture/svg/HtmlIcon.svg" alt="site-simple" width="" height="" />
                   <img src="picture/svg/CssIcon.svg" alt="site-simple" width="" height="" />
                   <img src="picture/svg/MaterializeIcon.svg" alt="site-simple" width="" height="" />
@@ -176,12 +181,12 @@
                   <img src="picture/svg/PhpIcon.svg" alt="site-simple" width="" height="" />
                 </div>
                 <div class="required-tip">
-                  <p class="bold-text white-text mb-0">制作期間</p>
-                  <span class="small-text white-text">ページ内容によって(2日～1ヶ月)</span>
+                  <p class="bold-text black-text mb-0">制作期間</p>
+                  <span class="small-text ">ページ内容によって(2日～1ヶ月)</span>
                 </div>
                 <div class="required-tip">
-                  <p class="bold-text white-text mb-0">担当役割</p>
-                  <span class="small-text white-text">コーディングを担当</span>
+                  <p class="bold-text black-text mb-0">担当役割</p>
+                  <span class="small-text ">コーディングを担当</span>
                 </div>
               </div>
             </div>
@@ -189,13 +194,10 @@
               <span class="my-project-title">自社サイト作成</span><br>
               注文ページ作成、通販商品サイト制作、リニューアルサイトの制作、運用サイトの更新
             </div>
-            <p class="white-text">
-              既に公開されているサイトのリニューアル制作や新商品の注文ページ作成は案件となり、商品販売ページは通販専用ツールを用いて制作。<br>
-              複数人でコーディングを行う体制だったので、この案件のみに適用するコーディングルールを設け制作を進めた。
-              デザインの部分で、いくつか同じデザインの派生ページが発生した為、マークアップ・スタイル記述はパーツを細分化して、どのブロックでも使える形でコーディング。
-              注文ページ制作の際には、PHPやjQueryを使ったことがあけど、あまり詳しくないので、分からないことがる時はネット上での検索や自習しながらタスク対応しました。
+            <p class="explain-text">
+              既に公開されているサイトのリニューアル制作や新商品の注文ページ作成は案件となり、商品販売ページは通販専用ツールを用いて制作。<br>複数人でコーディングを行う体制だったので、この案件のみに適用するコーディングルールを設け制作を進めた。デザインの部分で、いくつか同じデザインの派生ページが発生した為、マークアップ・スタイル記述はパーツを細分化して、どのブロックでも使える形でコーディング。注文ページ制作の際には、PHPやjQueryを使ったことがあけど、あまり詳しくないので、分からないことがる時はネット上での検索や自習しながらタスク対応しました。
             </p>
-            <a href="#">
+            <a href="https://www.umaku.jp/" target="_blank">
               <div class="project-site-link">
                 自社サイトを見る
               </div>
@@ -208,9 +210,9 @@
               <div class="col s12 m6">
                 <img src="picture/svg/site-simple.svg" alt="site-simple" width="" height="" class="project-site-img" />
               </div>
-              <div class="col s12 m6">
+              <div class="col s12 m6 mb-0">
                 <div class="required-tip">
-                  <p class="bold-text white-text mb-0">利用技術</p>
+                  <p class="bold-text black-text mb-0">利用技術</p>
                   <img src="picture/svg/HtmlIcon.svg" alt="site-simple" width="" height="" />
                   <img src="picture/svg/CssIcon.svg" alt="site-simple" width="" height="" />
                   <img src="picture/svg/MaterializeIcon.svg" alt="site-simple" width="" height="" />
@@ -218,12 +220,12 @@
                   <img src="picture/svg/PhpIcon.svg" alt="site-simple" width="" height="" />
                 </div>
                 <div class="required-tip">
-                  <p class="bold-text white-text mb-0">制作期間</p>
-                  <span class="small-text white-text">ページ内容によって(2日～1ヶ月)</span>
+                  <p class="bold-text black-text mb-0">制作期間</p>
+                  <span class="small-text ">ページ内容によって(2日～1ヶ月)</span>
                 </div>
                 <div class="required-tip">
-                  <p class="bold-text white-text mb-0">担当役割</p>
-                  <span class="small-text white-text">コーディングを担当</span>
+                  <p class="bold-text black-text mb-0">担当役割</p>
+                  <span class="small-text ">コーディングを担当</span>
                 </div>
               </div>
             </div>
@@ -231,14 +233,14 @@
               <span class="my-project-title">レスポンシブ対応</span><br>
               新商品クッションページコーディング、ランディングページ制作、コラムページコーディング
             </div>
-            <p class="white-text">
+            <p class="explain-text">
               のぼり旗や横断幕、タペストリー等印刷系の販促グッズを紹介する広告用ランディングページや商品のクッションページのレスポンシブ対応を制作。
               基本はデザインの方からもらったラフを参考に作成。<br>
               HTML側の記述はソース構造を複雑化しない様に心掛け、CSS側はモバイルファーストで組み込みを行い、テキストもなるべくCSSで再現できる部分は対応を行った。
               またブレイクポイントがPC/SPのみの指定だったがタブレットで閲覧することも想像し、基本SPデザインを表示しつつ見易さの部分を配慮してCSS調整を行った。
               レスポンシブの対応自体はメディアクエリやMaterializeを使っている。
             </p>
-            <a href="#">
+            <a href="https://v-nobori.com/lp/nobori" target="_blank">
               <div class="project-site-link">
                 LPページを見る
               </div>
@@ -246,16 +248,16 @@
           </div>
         </div>
       </div>
-      <div class="row project-data-row">
+      <div class="row project-data-row row--align-height" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
         <div class="col s12 m6 project-border">
           <div class="my-project">
             <div class="row project-site-row">
               <div class="col s12 m6">
                 <img src="picture/svg/site-simple.svg" alt="site-simple" width="" height="" class="project-site-img" />
               </div>
-              <div class="col s12 m6">
+              <div class="col s12 m6 mb-0">
                 <div class="required-tip">
-                  <p class="bold-text white-text mb-0">利用技術</p>
+                  <p class="bold-text black-text mb-0">利用技術</p>
                   <img src="picture/svg/HtmlIcon.svg" alt="site-simple" width="" height="" />
                   <img src="picture/svg/CssIcon.svg" alt="site-simple" width="" height="" />
                   <img src="picture/svg/MaterializeIcon.svg" alt="site-simple" width="" height="" />
@@ -263,12 +265,12 @@
                   <img src="picture/svg/PhpIcon.svg" alt="site-simple" width="" height="" />
                 </div>
                 <div class="required-tip">
-                  <p class="bold-text white-text mb-0">制作期間</p>
-                  <span class="small-text white-text">ページ内容によって(2日～1ヶ月)</span>
+                  <p class="bold-text black-text mb-0">制作期間</p>
+                  <span class="small-text ">ページ内容によって(2日～1ヶ月)</span>
                 </div>
                 <div class="required-tip">
-                  <p class="bold-text white-text mb-0">担当役割</p>
-                  <span class="small-text white-text">コーディングを担当</span>
+                  <p class="bold-text black-text mb-0">担当役割</p>
+                  <span class="small-text ">コーディングを担当</span>
                 </div>
               </div>
             </div>
@@ -276,13 +278,13 @@
               <span class="my-project-title">自社サイト作成</span><br>
               注文ページ作成、通販商品サイト制作、リニューアルサイトの制作、運用サイトの更新
             </div>
-            <p class="mb-5 white-text">
+            <p class="mb-5 explain-text">
               WordPress使用の自社公式サイトや採用サイト、オウンドメディアサイトの作成。
               WordPressテーマのカスタマイズやプラグインの使用で、サイト修正やページ追加を対応しました。
               必要であれば、サイト内に新しいCSSやJavaScriptの追加も行いました。
             </p>
-            <a href="#">
-              <div class="project-official-site-link">
+            <a href="http://www.itamiarts.jp/" target="_blank">
+              <div class="project-site-link">
                 自社公式サイトを見る
               </div>
             </a>
@@ -294,9 +296,9 @@
               <div class="col s12 m6">
                 <img src="picture/svg/site-simple.svg" alt="site-simple" width="" height="" class="project-site-img" />
               </div>
-              <div class="col s12 m6">
+              <div class="col s12 m6 mb-0">
                 <div class="required-tip">
-                  <p class="bold-text white-text mb-0">利用技術</p>
+                  <p class="bold-text black-text mb-0">利用技術</p>
                   <img src="picture/svg/HtmlIcon.svg" alt="site-simple" width="" height="" />
                   <img src="picture/svg/CssIcon.svg" alt="site-simple" width="" height="" />
                   <img src="picture/svg/MaterializeIcon.svg" alt="site-simple" width="" height="" />
@@ -304,12 +306,12 @@
                   <img src="picture/svg/PhpIcon.svg" alt="site-simple" width="" height="" />
                 </div>
                 <div class="required-tip">
-                  <p class="bold-text white-text mb-0">制作期間</p>
-                  <span class="small-text white-text">ページ内容によって(2日～1ヶ月)</span>
+                  <p class="bold-text black-text mb-0">制作期間</p>
+                  <span class="small-text ">ページ内容によって(2日～1ヶ月)</span>
                 </div>
                 <div class="required-tip">
-                  <p class="bold-text white-text mb-0">担当役割</p>
-                  <span class="small-text white-text">コーディングを担当</span>
+                  <p class="bold-text black-text mb-0">担当役割</p>
+                  <span class="small-text ">コーディングを担当</span>
                 </div>
               </div>
             </div>
@@ -317,7 +319,7 @@
               <span class="my-project-title">レスポンシブ対応</span><br>
               新商品クッションページコーディング、ランディングページ制作、コラムページコーディング
             </div>
-            <p class="mb-4 white-text">
+            <p class="mb-4 explain-text">
               Adobe Illustrator、Photoshopや素材などを利用してお客様からいただいた手書きオーダーシートや参考データを見ながらデザイン制作。
               お客様の希望を叶えるためいろいろな場面や目線から見てなるべくご期待に応えることができるよう対応しました。
             </p>
@@ -339,7 +341,7 @@
       <div class="row skill-map-row">
         <div class="col s12 m6">
           <div class="my-skillmap">
-            <p class="center large-text white-text bold-text">Web 知識</p>
+            <p class="center large-text  bold-text">Web 知識</p>
             <p class="mb-0 bold-text medium-text">HTML 5</p>
             <div class="back skillbar clearfix" data-percent="100%">
               <div class="skill skillbar-bar" style="height:12px;width:0%;">100%</p></div>
@@ -393,7 +395,7 @@
         </div>
         <div class="col s12 m6">
           <div class="my-skillmap">
-            <p class="center large-text white-text bold-text">Web に関するツール</p>
+            <p class="center large-text  bold-text">Web に関するツール</p>
             <p class="mb-0 bold-text medium-text">Visual Studio</p>
             <div class="back skillbar clearfix" data-percent="90%">
               <div class="skill skillbar-bar" style="height:12px;width:0%;">90%</p></div>
@@ -421,7 +423,7 @@
           </div>
 
           <div class="my-skillmap mt-2">
-            <p class="center large-text white-text bold-text">話せる言語</p>
+            <p class="center large-text  bold-text">話せる言語</p>
             <p class="mb-0 bold-text medium-text">ミャンマー語（母語）</p>
             <div class="back skillbar clearfix" data-percent="100%">
               <div class="skill skillbar-bar" style="height:12px;width:0%;">100%</p></div>
@@ -446,25 +448,25 @@
   <div style="clear: both;"></div>
 
   <!-- contact | start -->
-  <section>
-    <div class="contact-container">
+  <section id="contact">
+    <div class="contact-container" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
       <div class="contact-title">
         <div class="contact-large-title">CONTACT</div>
         <div class="contact-small-title">お問合せ</div>
       </div>
 
       <div class="contact-data">
-        <p class="center bold-text large-text">お電話またはメールでのご相談は下記までお願いいたします。</p>
-        <div class="row row--align-height">
+        <p class="center bold-text black-text large-text">お電話またはメールでのご相談は下記までお願いいたします。</p>
+        <div class="row row--align-height contact-row">
           <div class="col s12 m6">
             <div class="contact_col">
-              <img class="tag-icon" src="picture/svg/email.svg" alt="email" />
+              <img class="tag-icon" src="picture/svg/email.svg" alt="email" /><br>
               <a class="tag-name" href="mailto:khinkyikyikhine253@gmail.com">khinkyikyikhine253@gmail.com</a>
             </div>
           </div>
           <div class="col s12 m6">
             <div class="contact_col">
-              <img class="tag-icon" src="picture/svg/smartphone-call.svg" alt="phone number" />
+              <img class="tag-icon" src="picture/svg/smartphone-call.svg" alt="phone number" /><br>
               <a class="tag-name" href="tel:+8109081717896">+8109081717896</a>
             </div>
           </div>
@@ -474,149 +476,16 @@
   </section>
 
 
-  <!-- <section>
-    <div class="form_data_wrapper">
-      <div class="form_data_title">
-        <div class="contact-large-title">お問い合わせフォーム</div>
-      </div>
-      <div class="form_section">
-        <form action="">
-          <div class="row">
-            <div class="col s12 m3">
-              <p class="mt-1"><span class="label-title">お名前</span><span class="label-text">必須</span></p>
-            </div>
-            <div class="col s12 m9">
-              <label for="name" id="name_id_row">
-                <input type="text" name="name" id="fname" placeholder="First Name" value="">
-                <input type="text" name="name" id="lname" placeholder="Last Name" value="">
-              </label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col s12 m3">
-              <p class="mt-1"><span class="label-title">性別</span></p>
-            </div>
-            <div class="col s12 m9">
-              <label>
-                <input class="with-gap" name="gender" type="radio" value="男性" checked required/>
-                <span class="gender-text">男性</span>
-              </label>
-              <label>
-                <input class="with-gap" name="gender" type="radio" value="女性" required/>
-                <span class="gender-text">女性</span>
-              </label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col s12 m3">
-              <p class="mt-1"><span class="label-title">ご住所</span></p>
-            </div>
-            <div class="col s12 m9">
-              〒<input type="text" name="zip1" id="zip1" placeholder="000"> ー
-                <input type="text" name="zip2" id="zip2" placeholder="0001"><br>
-                <input type="text" name="address" id="address">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col s12 m3">
-              <p class="mt-1"><span class="label-title">電話番号</span><span class="label-text">必須</span></p>
-            </div>
-            <div class="col s12 m9">
-              <label for="phone">
-                <input type="tel" name="phone" id="phone" placeholder="09123456789">
-              </label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col s12 m3">
-              <p class="mt-1"><span class="label-title">メール</span><span class="label-text">必須</span></p>
-            </div>
-            <div class="col s12 m9">
-              <label for="mail">
-                <input type="email" name="email" id="email" placeholder="contact@gmail.com">
-              </label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col s12 m3">
-              <p class="mt-1"><span class="label-title">確認メール</span></p>
-            </div>
-            <div class="col s12 m9">
-              <label for="confirm_email">
-                <input type="email" name="confirm_email" id="confirm_email" placeholder="contact@gmail.com">
-              </label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col s12 m3">
-              <p class="mt-1"><span class="label-title">お問合せ種類</span></p>
-            </div>
-            <div class="col s12 m9">
-              <label for="type">
-                <!-- <select id="type" name="type" value="type"> -->
-                <!--<select id="type" name="type" value="type">
-                  <option value="" disabled selected>ご選択ください</option>
-                  <option value="type1">勉強会について</option>
-                  <option value="type2">レクチャー用の書類提出</option>
-                  <option value="type3" id="option_select">新しいクラスの情報</option>
-                  <option value="type4">個人プロジェクトの窓口</option>
-                  <option value="type5">定例ミーティングの欠席に関する連絡</option>
-                  <option value="type6">それぞれのご意見</option>
-                </select>
-              </label>
-            </div>
-          </div>
-          <div class="row" id="type_selected">
-            <div class="col s12 m3">
-              <p class="mt-1"><span class="label-title">レベルと資格</span><span class="label-text">必須</span></p>
-            </div>
-            <div class="col s12 m9">
-              <label for="level">
-                <input type="text" name="level" id="level">
-              </label>
-            </div>
-          </div>
-
-          <div class="row" id="type_selected">
-            <div class="col s12 m3">
-              <p class="mt-1"><span class="label-title">お問合せ内容</span></p>
-            </div>
-            <div class="col s12 m9">
-              <label for="information">
-                <textarea id="information" name="information"></textarea>
-              </label>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col s12">
-              <label>
-                <input class="filled-in" id="is_student" name="is_student" type="checkbox" />
-                <span class="gender-text">学生の時はこちらにチェックする</span>
-              </label>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col s12 ">
-                <button class="btn" id="submit" type="submit" name="submit">上記に同意してお問合せを送信する
-                </button>
-            </div>
-          </div>
 
 
-
-        </form>
-        <div class="card-content">
-        </div>
-      </div>
-    </div>
-  </section>-->
-  <script type="text/javascript" src="js/materialize.min.js"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!-- <script type="text/javascript" src="js/form.js"></script> -->
   <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
 </body>
 
 </html>
