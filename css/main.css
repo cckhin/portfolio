@@ -75,11 +75,7 @@ hr {
   }
 }
 @media only screen and (max-width: 975px) {
-  header .portfolio-logo {
-    position: absolute;
-    left: 450px;
-    display: block;
-  }
+  
 }
 @media only screen and (max-width: 600px) {
   header .portfolio-logo {
@@ -159,11 +155,18 @@ header div {
   font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: 0;
-  color: #fff;
+  color: #37c3e2;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 header .container {
   display: flex;
+}
+/* ul:not(.browser-default) {
+  position: absolute;
+  left: 50px;
+} */
+.header-data {
+  position: relative;
 }
 header .portfolio-logo {
   margin-bottom: 5px;
@@ -172,6 +175,9 @@ header .portfolio-logo {
   line-height: 1;
   font-size: 15px;
   color: #fff;
+  margin-right: 2rem;
+  position: absolute;
+  right: 50px;
 }
 header .title-name {
   font-family: 'Lobster', cursive;
@@ -403,7 +409,7 @@ a .resume-download-gray:hover {
   box-shadow: 3px 3px 7px rgb(0 0 0 / 10%);
 }
 .my-project-data {
-  border-left: 5px solid #2a356b;
+  border-left: 5px solid #3e3a39;
   padding-left: 5px;
   margin-bottom: 13px;
 }
@@ -411,7 +417,7 @@ a .resume-download-gray:hover {
   font-size: 1.1rem;
   font-weight: bold;
   line-height: 2;
-  color: #2a356b
+  color: #3e3a39
 }
 .required-tip {
   margin-bottom: 5px;
@@ -446,7 +452,7 @@ a .resume-download-gray:hover {
   margin-top: -4.2rem;
 }
 .project-site-link {
-  background-color: #2a356b;
+  background-color: #3e3a39;
   padding: 10px;
   width: 100%;
   border-radius: 3px;
@@ -496,7 +502,7 @@ a .project-site-link:hover {
   z-index: initial;
   font-size: 15px;
   text-align: center;
-  margin-top: -3.5rem;
+  margin-top: -4.2rem;
 }
 
 .back {
@@ -513,9 +519,10 @@ a .project-site-link:hover {
 /*background: #4AC29A;  /* fallback for old browsers */
 /*background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
 /*background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: #ff6e7f;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #bfe9ff, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #bfe9ff, #ff6e7f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
 
@@ -585,11 +592,11 @@ background: linear-gradient(to right, #bfe9ff, #ff6e7f); /* W3C, IE 10+/ Edge, F
   background-color: #fff;
   padding: 1rem;
   /* border-radius: 8px; */
-  width: 85%;
+  width: 75%;
   margin: auto;
   display: block;
   margin-top: 3rem;
-  border-top: 15px solid #2a356b;
+  border-top: 15px solid #3e3a39;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -599,7 +606,7 @@ background: linear-gradient(to right, #bfe9ff, #ff6e7f); /* W3C, IE 10+/ Edge, F
   width: 28px;
 }
 .tag-name {
-  color: #2a356b;
+  color: #3e3a39;
   vertical-align: text-bottom;
   font-size: 1.1rem;
   font-weight: bold;
@@ -611,7 +618,7 @@ background: linear-gradient(to right, #bfe9ff, #ff6e7f); /* W3C, IE 10+/ Edge, F
   display: block;
   border-radius: 3px;
   padding: 8px 5px 3px 0;
-  border: 2px solid #2a356b;
+  border: 2px solid #3e3a39;
 }
 @media only screen and (max-width: 600px) {
   .contact-row .col {
