@@ -26,7 +26,11 @@ body {
   /*background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
   /*background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   /* background: linear-gradient(to right, #F8CDDA, #1D2B64); */
-  background: linear-gradient(to right, #eaecc6, #2bc0e4);
+  /* background: linear-gradient(to right, #eaecc6, #2bc0e4); */
+  background: #CC95C0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 nav .brand-logo {
@@ -273,7 +277,7 @@ header .contact-link {
 .resume-container {
   /* background-color: #ffe2a8; */
   padding: 50px 20px 80px;
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 .resume-large-title {
   color: #fff;
@@ -292,7 +296,7 @@ header .contact-link {
   width: 60%;
   background-color: #fff;
   border-top: 10px solid #212121;
-  margin-top: 5rem;
+  margin-top: 3rem;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   box-shadow: 4px 4px 10px rgb(0 0 0 / 40%);
@@ -1161,6 +1165,26 @@ textarea {
     padding: 0.5rem 2rem;
 }
 .ribbon-highlight:before{
+  content: "";
+    z-index: -1;
+    left: -2px;
+    top: 8px;
+    padding: 0.5re;
+    border-width: 0.6em;
+    border-style: solid;
+    border-color: #212121;
+    position: absolute;
+    width: 100%;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+.ribbon-highlight-introduction {
+  position: relative;
+    margin: 0.1em;
+    color: #fff;
+    padding: 0.5rem 2rem;
+}
+.ribbon-highlight-introduction:before{
   content: "";
     z-index: -1;
     left: -2px;
