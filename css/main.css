@@ -249,7 +249,7 @@ header .contact-link {
 }
 .intro-large-title {
   color: #fff;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
   text-align: center;
   margin-top: 5rem;
@@ -277,7 +277,7 @@ header .contact-link {
 }
 .resume-large-title {
   color: #fff;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   font-weight: bold;
 }
@@ -446,7 +446,7 @@ a .resume-download-gray:hover {
 }
 .project-large-title {
   color: #fff;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   font-weight: bold;
 }
@@ -505,7 +505,7 @@ a .project-site-link:hover {
 }
 .skillmap-large-title {
   color: #fff;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   font-weight: bold;
 }
@@ -594,7 +594,7 @@ a .project-site-link:hover {
 }
 .contact-large-title {
   color: #fff;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   font-weight: bold;
 }
@@ -1151,4 +1151,26 @@ textarea {
     padding: 0;
     color: #fff;
   }
+}
+
+
+.ribbon-highlight{
+  position: relative;
+    margin: 0.1em;
+    color: #fff;
+    padding: 0.5rem 2rem;
+}
+.ribbon-highlight:before{
+  content: "";
+    z-index: -1;
+    left: -2px;
+    top: 8px;
+    padding: 0.5re;
+    border-width: 0.6em;
+    border-style: solid;
+    border-color: #212121;
+    position: absolute;
+    width: 100%;
+    border-left-color: transparent;
+    border-right-color: transparent;
 }
